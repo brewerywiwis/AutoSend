@@ -1,0 +1,13 @@
+app_line:Point(x=122, y=1064)
+step1:Point(x=698, y=304)
+step2:Point(x=833, y=660)
+step3:Point(x=1159, y=800)
+step4:input string+press enter
+#every line under step 4 -> break
+
+step5:Point(x=1382, y=276)
+
+
+#using checkLocation.py for find location on your screen
+#add point into step
+#any line not have point, it's mean not click
