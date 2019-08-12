@@ -1,0 +1,30 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X       *Follow instruments for setting mouse click point.*
+X   1.Using setting_mouse_location.py for finding the fix point.
+X   2.Putting Help on console to see the command.
+X       2.1 Clean - Clear point data.
+X       2.2 Record - Start to record point data depend on your key (S-single click, D-double click).
+X       2.3 View - See point data.
+X       2.4 Exit - Exit the program.
+X   3.Going to Main.py for sending message
+X       3.1 Message - required message
+X       3.2 Number - Number of message
+X       3.3 Delay - Time space of sending message
+X       3.4 Round - One period of message(n number)
+X   4.Be carefully when using this program because it's prototype.*
+X   PS. Always completely the point data. if you want to change, Clean command.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+EXAMPLE [Location  File]
+    :The lower area is a start,end of the location file when using in send_message function
+#########################################
+S@Point(x=27, y=1049)
+S@Point(x=374, y=706)
+S@Point(x=818, y=295)
+D@Point(x=989, y=739)
+S@Point(x=1364, y=790)
+input
+#########################################
+
+#S = single click
+#D = double click

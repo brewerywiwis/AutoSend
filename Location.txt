@@ -1,0 +1,5 @@
+S@Point(x=26, y=1064)
+S@Point(x=369, y=705)
+D@Point(x=1286, y=502)
+S@Point(x=581, y=782)
+input
